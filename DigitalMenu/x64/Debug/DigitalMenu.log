@@ -1,0 +1,7 @@
+﻿  Main.cpp
+C:\Users\Joses\Documents\GitHub\DigitalMenu\DigitalMenu\Main.cpp(69,35): warning C4101: 'e': unreferenced local variable
+C:\Users\Joses\Documents\GitHub\DigitalMenu\DigitalMenu\Main.cpp(107,34): warning C4101: 'e': unreferenced local variable
+  Item.cpp
+  Order.cpp
+  Generating Code...
+  DigitalMenu.vcxproj -> C:\Users\Joses\Documents\GitHub\DigitalMenu\DigitalMenu\x64\Debug\DigitalMenu.exe

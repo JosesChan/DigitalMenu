@@ -8,10 +8,6 @@
 
 using namespace std;
 
-int main() {
-
-	
-}
 
 void runMenu() {
 	string userCommand;
@@ -155,3 +151,7 @@ void runMenu() {
 }
 
 
+
+int main() {
+	runMenu();
+}
