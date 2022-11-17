@@ -18,8 +18,8 @@ protected:
 public:
 
 	// Accessor for pointer of items vector
-	std::shared_ptr<Item> getVectorPointer(int vectorIndex);
-	int getVectorSize();
+	std::shared_ptr<Item> getVectorPointer(std::size_t vectorIndex);
+	std::size_t getVectorSize();
 
 	// pure virtual function 
 	virtual std::string toString() = 0;

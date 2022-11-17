@@ -75,6 +75,7 @@ Menu::Menu(std::string fileName) {
 		}
 	}
 	catch (const std::exception& e) {
+		(void)e;
 		std::cout << '\n';
 		std::cout << "Error reading in the file";
 		std::cout << '\n';

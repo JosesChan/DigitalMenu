@@ -10,7 +10,7 @@ using namespace std;
 
 
 void runMenu() {
-	string userCommand;
+	string userCommand = "";
 	vector <string> parameters;
 	vector <int> removeLocationsInput; // stores inputs that specifies locations to be removed
 	string helpOutput = "Type 'menu' to display what items are on the menu to order from \n"
@@ -67,6 +67,7 @@ void runMenu() {
 						}
 					}
 					catch (const std::exception& e) {
+						(void)e;
 						cout << "\nError found with input given\n";
 					}
 				}
@@ -105,6 +106,7 @@ void runMenu() {
 					}
 				}
 				catch (const std::exception& e) {
+					(void)e;
 					cout << "\nError found with input given\n";
 				}
 			}
@@ -153,5 +155,6 @@ void runMenu() {
 
 
 int main() {
+	system("pause");
 	runMenu();
 }
