@@ -1,0 +1,7 @@
+(1) White wine, Calories: 150, Price: £4 (175 ml, 11.5%)
+(2) Nachos, Calories: 600, Price: £4.99 (Shareable) 
+(3) Nachos, Calories: 600, Price: £4.99 (Shareable) 
+
+
+Savings: £0.00 
+Total: £13.98

@@ -153,13 +153,14 @@ void runMenu() {
 			parameters.clear();
 		}
 	}
-	std::cout << "Press any key to quit...";
-	std::getchar();
+	cout<< "\nPress enter to exit";
+	getchar();
 }
 
 
 
 int main() {
-	system("pause");
+	cout<< "Press enter to continue\n";
+	getchar();
 	runMenu();
 }
