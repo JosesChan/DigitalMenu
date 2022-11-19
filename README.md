@@ -1,5 +1,5 @@
 # DigitalMenu
- Assignment demonstrating object orientated programming and smart pointers done for university. Creates a receipt in a text file once program finishes. Copy zip into Templates\ProjectTemplates for Visual studio and create from template to open. Ensure to copy "menu" csv file into project solution.
+ Assignment demonstrating object orientated programming and smart pointers done for university. Creates a receipt in a text file once program finishes. Run "DigitalMenu.exe" file in DigitalMenu/x64/Debug/ or DigitalMenu/x64/Release/.
 
 Uses the following:
 Classes
