@@ -5,6 +5,9 @@
 #include <iostream>
 #include <vector>
 #include <cstring>
+#include <algorithm>
+
+
 
 using namespace std;
 
@@ -125,7 +128,9 @@ void runMenu() {
 					cin >> checkoutDecision;
 
 					// removes white spaces
-					checkoutDecision.erase(remove_if(checkoutDecision.begin(), checkoutDecision.end(), isspace), checkoutDecision.end());
+					std::string::iterator end_pos = std::remove(checkoutDecision.begin(), checkoutDecision.end(), ' ');
+					checkoutDecision.erase(end_pos, checkoutDecision.end());
+					//checkoutDecision.erase(remove_if(checkoutDecision.begin(), checkoutDecision.end(), isspace), checkoutDecision.end());
 
 					if (checkoutDecision == "y") { // if user wants to print file
 						order.printReceipt(order.toString());
