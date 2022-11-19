@@ -7,10 +7,7 @@
 #include <cstring>
 #include <algorithm>
 
-
-
 using namespace std;
-
 
 void runMenu() {
 	string userCommand = "";
