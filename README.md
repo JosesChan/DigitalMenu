@@ -12,7 +12,7 @@ Inheritance\
 Object overloading and overriding\
 Pure virtual functions\
 Abstract classes\
-Access modifiers (Public, Private and Protected)\
+Access modifiers (Public, Private and Protected)
 
 # Run in Windows
 Run "DigitalMenu.exe" file in DigitalMenu/x64/Debug/ or DigitalMenu/x64/Release/.
