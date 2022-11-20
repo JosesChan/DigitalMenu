@@ -14,13 +14,13 @@ Pure virtual functions
 Abstract classes
 Access modifiers (Public, Private and Protected)
 
-# Windows
+# Run in Windows
 Run "DigitalMenu.exe" file in DigitalMenu/x64/Debug/ or DigitalMenu/x64/Release/.
 
-# Linux
+# Run in Linux
 Run "DigitalMenu.exe" in the DigitalMenu folder
 
-# Docker + Development Environment
+# Run app in Docker + Development Environment
 Install and open Docker
 Install VS Code
 
@@ -29,5 +29,10 @@ Install the extension dev container
 
 Use command palette (Control + shift + p) or pop up to reopen as a dev container
 ![image](https://user-images.githubusercontent.com/2979485/202915244-5c44de79-1153-48cb-93c3-37c067625a2b.png)
+
+Enter the following commands to open the program:
+cd DigitalMenu/
+./Main.exe
+![image](https://user-images.githubusercontent.com/2979485/202915958-4513c738-ecd2-4a0a-bd39-fc34e4445b07.png)
 
 
