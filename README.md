@@ -20,7 +20,7 @@ Run "DigitalMenu.exe" file in DigitalMenu/x64/Debug/ or DigitalMenu/x64/Release/
 # Run in Linux
 Run "DigitalMenu.exe" in the DigitalMenu folder
 
-# Run app in Docker + Development Environment
+# Run in Docker container + Development Environment
 Install and open Docker\
 Install VS Code
 
