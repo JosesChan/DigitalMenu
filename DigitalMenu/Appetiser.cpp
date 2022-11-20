@@ -29,7 +29,7 @@ std::string Appetiser::toString() {
 		twoForOneStatus = "(twoForOne)";
 	}
 
-	return (" " + name + ", Calories: " + removeTrailingZeros(std::to_string(calories)) + ", Price: \xA3" + removeTrailingZeros(std::to_string(price)) + " " + shareableStatus + " " + twoForOneStatus);
+	return (" " + name + ", Calories: " + removeTrailingZeros(std::to_string(calories)) + ", Price: $" + removeTrailingZeros(std::to_string(price)) + " " + shareableStatus + " " + twoForOneStatus);
 
 }
 

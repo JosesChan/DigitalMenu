@@ -1,7 +1,15 @@
-(1) White wine, Calories: 150, Price: £4 (175 ml, 11.5%)
-(2) Nachos, Calories: 600, Price: £4.99 (Shareable) 
-(3) Nachos, Calories: 600, Price: £4.99 (Shareable) 
+(1) Garlic bread, Calories: 500, Price: $3.99  (twoForOne)
+(2) Garlic bread, Calories: 500, Price: $3.99  (twoForOne)
+(3) Garlic bread, Calories: 500, Price: $3.99  (twoForOne)
+(4) Garlic bread, Calories: 500, Price: $3.99  (twoForOne)
+(5) Garlic bread, Calories: 500, Price: $3.99  (twoForOne)
+(6) Mac & cheese, Calories: 850, Price: $7.99
+(7) Lager, Calories: 200, Price: $3.5 (568 ml, 4.5%)
+(8) Lager, Calories: 200, Price: $3.5 (568 ml, 4.5%)
+(9) Lager, Calories: 200, Price: $3.5 (568 ml, 4.5%)
+(10) Lager, Calories: 200, Price: $3.5 (568 ml, 4.5%)
+(11) Lager, Calories: 200, Price: $3.5 (568 ml, 4.5%)
 
 
-Savings: £0.00 
-Total: £13.98
+Savings: $7.98
+Total: $37.46

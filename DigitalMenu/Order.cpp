@@ -43,14 +43,14 @@ std::string Order::calculateTotal(){
 	}
 
 	if (savings == 0) {
-		stream << ("Savings: \xA3""0.00 \nTotal: \xA3");
+		stream << ("Savings: $""0.00 \nTotal: $");
 		stream << std::fixed << std::setprecision(2) << (total);
 		return(stream.str());
 	}
 
-	stream << ("Savings: \xA3");
+	stream << ("Savings: $");
 	stream << std::fixed << std::setprecision(2) << (savings);
-	stream << ("\nTotal: \xA3");
+	stream << ("\nTotal: $");
 	stream << std::fixed << std::setprecision(2) << (total);
 	return(stream.str());
 }

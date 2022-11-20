@@ -10,5 +10,5 @@ MainCourse::MainCourse(char typeInput,  std::string nameInput, float priceInput,
 
 
 std::string MainCourse::toString() {
-	return (" " + name + ", Calories: " + removeTrailingZeros(std::to_string(calories)) + ", Price: \xA3" + removeTrailingZeros(std::to_string(price)));
+	return (" " + name + ", Calories: " + removeTrailingZeros(std::to_string(calories)) + ", Price: $" + removeTrailingZeros(std::to_string(price)));
 }

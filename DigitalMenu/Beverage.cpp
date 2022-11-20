@@ -22,7 +22,7 @@ std::string Beverage::toString() {
 	if (isAlcohol(abv) == true) {
 		alcoholStatus = ", " + removeTrailingZeros(std::to_string(abv)) + '%';
 	}
-	return (" " + name + ", Calories: " + removeTrailingZeros(std::to_string(calories)) + ", Price: \xA3" + removeTrailingZeros(std::to_string(price)) + " (" + removeTrailingZeros(std::to_string(volume)) + " ml" + alcoholStatus + ")");
+	return (" " + name + ", Calories: " + removeTrailingZeros(std::to_string(calories)) + ", Price: $" + removeTrailingZeros(std::to_string(price)) + " (" + removeTrailingZeros(std::to_string(volume)) + " ml" + alcoholStatus + ")");
 }
 
 Beverage::Beverage(char typeInput, std::string nameInput, float priceInput, float caloriesInput, float volumeInput, float abvInput)
