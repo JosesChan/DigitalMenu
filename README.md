@@ -22,7 +22,7 @@ Run "DigitalMenu.exe" in the DigitalMenu folder
 
 # Run app in Docker + Development Environment
 Install and open Docker\
-Install VS Code\
+Install VS Code
 
 Install the extension dev container\
 ![image](https://user-images.githubusercontent.com/2979485/202915261-29fea5b8-5dbb-416f-805e-fd2e5973b666.png)
