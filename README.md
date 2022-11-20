@@ -2,8 +2,8 @@
 Assignment demonstrating object orientated programming and smart pointers done for university. Creates a receipt in a text file once program finishes. 
 Originally created with VS Community 2019 with x64 folder holding debug and release version files. However the development environment is now containerised in a debian image docker container. 
 
-Uses the following:
-Classes
+Uses the following:\
+Classes\
 Functions
 Constructors
 Smart Pointers (Shared and Unique)
