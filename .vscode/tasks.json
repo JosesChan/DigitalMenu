@@ -17,7 +17,7 @@
                 "${fileDirname}/MainCourse.cpp",
                 "${fileDirname}/Beverage.cpp",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}/${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
